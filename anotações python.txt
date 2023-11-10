@@ -1,0 +1,170 @@
+python é uma linguagem interpretada
+linguagem interpretada é mais lenta
+compilador gera um executavel com bibliotecas do SO
+interpretada sempre precisa de um interpretador instalado
+Cpython implementacao do python com linguagem c
+
+
+PRINT()
+função de saída print() - argumentos: null, posicionais, keywords
+print('teste', "123") - no ligar da virgula ele sempre coloca um espaço 
+print('teste',    "123") - os espaços fora das aspas são ignorados
+print(1234123, "conca" 'TENA', "conca"+'TENA' ) - concaTENA concaTENA
+print("separa","DOR", sep="#")
+print("separa","DOR", end="#br") NAO PULA PARA LINHA DE BAIXO
+/t na strinc tab (tabulação)
+
+ 
+Literais ou Tipo de dados
+string
+numerico (inteiro e flutuante)
+boolean
+NoneType
+
+todo resultado de divisão sempre é float
+
+
+binario (0b) - bin()
+octal (0o) - oct()
+hexadecimal (0x) - hex()
+
+variaveis
+nao pode começar com número
+nao pode começar com caracter especial
+não pode ter espaço
+não pode ser com palavras reservadas
+
+
+* operadores aritimeticos de atribuição
+[operadores de atalho operadores de atribuição composto]
+
+
+
+atribuição multipla
+
+a =b = c = 10
+x, y = 10, 20
+x, y = y, x (inversao de valores)
+
+
+bitwise
+
+&
+|
+^
+~
+
+
+movienta 1 bit em relação ao comparado
+
+exemplo 13 e 10
+13   & 10
+1101 & 1010
+
+1101 &
+1010 
+1000 = 8
+
+13 & 10 = 8
+
+
+exemplo 9 e 11
+
+1001 & 1011
+
+1001 &
+1011
+1001 = 9
+
+
+exemplo 14 & 5
+
+
+1110 & 
+0101
+0100 = 4
+
+1001 9
+1011 11 
+1001
+
+27
+ 
+1  1  1  1  1
+2  2³ 2² 2¹ 2º
+16 8  4  2  1 
+11011
+
+
+bitwise or |
+
+
+45 | 96 = 109
+
+
+1100000 |
+ 101101
+1101101 = 109
+
+
+bitwise xor ^
+
+39 ^ 72 = 111
+
+ 100111 ^
+1001000
+1101111
+
+
+256 128 64 32 16 8 4 2 1
+
+
+Bitwise not ~
+
+144 ~ 205 = 34
+
+10010000 ~
+11001101
+00100010 = 34
+
+
+bitwise - operadores de deslocamento
+shift left	<<
+shift right 	>>
+
+1<<1 = 2
+1 -> 10
+
+2<<1 = 4
+10 -> 100
+
+4<<2 = 16
+100 -> 10000
+
+
+
+8<<2 = 2
+1000
+  10 = 2
+ 
+
+
+
+
+
+
+codigos
+from os install system
+from click install clean
+pip install click
+
+
+
+
+
+
+0	0	0	0	0
+1	1	1	1	1
+2	2	2	2	2
+3	3	3	3	3
+4	4	4	4	4
